@@ -1,0 +1,15 @@
+.InfoBox {
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    width: 100%; 
+}
+.innerInfoBox{
+    border: 2px solid rgb(211, 195, 195); 
+    width: 20rem;
+    color: black;
+    background-color: aqua; 
+    height: 20rem;
+}
