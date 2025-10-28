@@ -1,15 +1,23 @@
 .InfoBox {
-    
-    align-items: center;
-    display: flex;
-    flex-direction: column  ;
-    justify-content: center;
-    width: 100%; 
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 600px;
+  min-width: 400px;
 }
-.innerInfoBox{
-    border: 2px solid rgb(211, 195, 195); 
-    width: 20rem;
-    color: black;
-    background-color: aqua; 
-    height: 20rem;
+
+.InfoBox .MuiCard-root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.InfoBox .MuiCardMedia-root {
+  height: 300px; 
+}
+
+.InfoBox .MuiCardContent-root {
+  flex-grow: 1;
 }

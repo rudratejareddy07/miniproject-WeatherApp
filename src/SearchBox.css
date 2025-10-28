@@ -1,3 +1,53 @@
-.SearchBox{
+.SearchBox {
+    margin-bottom: 20px;
     text-align: center;
+}
+
+.SearchBox form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.SearchBox .error {
+    color: red;
+    font-weight: bold;
+}
+
+.history-container {
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.history-container p {
+    color: #000000; /* Black text for the title */
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* Style the chips to be black with white text */
+.history-container .MuiChip-root {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+}
+
+/* Force the chip's background to stay black on hover, REMOVING the effect */
+.history-container .MuiChip-root:hover {
+    background-color: #000000 !important; 
+    box-shadow: none;
+}
+
+
+.SearchBox .MuiButton-root {
+    min-width: 100px; /* Ensure button has a minimum width */
+    background-color: #1976d2; /* Set a consistent blue color */
+}
+
+/* A slightly darker blue on hover for the button */
+.SearchBox .MuiButton-root:hover {
+    background-color: #1565c0; 
 }
